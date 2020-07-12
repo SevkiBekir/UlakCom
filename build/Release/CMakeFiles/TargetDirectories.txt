@@ -1,0 +1,4 @@
+/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/CMakeFiles/rebuild_cache.dir
+/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/CMakeFiles/edit_cache.dir
+/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/CMakeFiles/ulakcom.dir
+/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/CMakeFiles/ulakcom_autogen.dir

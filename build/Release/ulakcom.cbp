@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ulakcom"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ulakcom">
+				<Option output="/home/sbk/Desktop/interview/ulak/ulakcom/bin/ulakcom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/ulakcom_autogen/include"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/../include"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/../cots/boost/boost"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 ulakcom"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ulakcom/fast">
+				<Option output="/home/sbk/Desktop/interview/ulak/ulakcom/bin/ulakcom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/ulakcom_autogen/include"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/../include"/>
+					<Add directory="/home/sbk/Desktop/interview/ulak/ulakcom/build/../cots/boost/boost"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 ulakcom/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ulakcom_autogen">
+				<Option working_dir="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 ulakcom_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/ui_MainWindow.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/Release/ulakcom_autogen/moc_compilation.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/ConfigParserUtil.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/ConfigParserUtil.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/Data.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/Data.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/MainWindow.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/MainWindow.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/MainWindow.ui">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/Node.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/Node.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/UdpSocketListener.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/UdpSocketListener.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/UdpSocketSender.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/UdpSocketSender.h">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/src/main.cpp">
+			<Option target="ulakcom"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/sbk/Desktop/interview/ulak/ulakcom/build/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

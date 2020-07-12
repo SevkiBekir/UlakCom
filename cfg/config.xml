@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<configs>
+    <nodes>
+        <node>
+            <name>MN</name>
+            <port>12345</port>
+            <nodesToSend>
+                <node name="SN"/>
+            </nodesToSend>
+        </node>
+        <node>
+            <name>SN</name>
+            <port>12355</port>
+            <nodesToSend>
+                <node name="MN"/>
+            </nodesToSend>
+        </node>
+        <!--<node>-->
+            <!--<name>DM</name>-->
+            <!--<port>12347</port>-->
+            <!--<nodesToSend>-->
+                <!--<node name="MN"/>-->
+            <!--</nodesToSend>-->
+        <!--</node>-->
+    </nodes>
+
+</configs>

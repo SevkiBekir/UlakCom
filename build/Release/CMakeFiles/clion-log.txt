@@ -1,0 +1,4 @@
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release DCMAKE_BUILD_TYPE=Release -DPlatform=64 -G "CodeBlocks - Unix Makefiles" /home/sbk/Desktop/interview/ulak/ulakcom/build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sbk/Desktop/interview/ulak/ulakcom/build/Release

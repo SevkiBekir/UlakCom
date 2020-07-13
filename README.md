@@ -87,7 +87,7 @@ For the case, only MN and SN nodes are communicated each others. The config xml 
 ```
 
 
-### Running the application
+#### Running the application
 In order to run the application, you should go to bin folder
 ```
 cd PROJECT_FOLDER/bin

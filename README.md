@@ -49,13 +49,53 @@ cmake -DCMAKE_BUILD_TYPE=Release -DPlatform=64 -G 'Unix Makefiles' ..
 make
 ```
 ### Run
+#### Config.xml
+The file is responsible for the configuration of the app. You should filled if neccessary. Also, the application can be sent the signal for all nodes that is defined in the file, but the signal sequence is embedded in the application therefore the feature cannot be used.
+
+##### Node Definitions 
+```
+		<node> 
+			<name>MN</name> <!-- Enter Node Name -->
+			<port>12345</port> <!-- Enter Listener Local Port -->
+			<nodesToSend>
+				<node name="SN"/> <!-- Enter Node name to send the signal -->
+				<node name="UE"/> <!-- Enter Node name to send the signal -->
+			</nodesToSend>
+		</node>
+```
+
+For the case, only MN and SN nodes are communicated each others. The config xml file should be like:
+```
+<configs>
+	<nodes>
+		<node>
+			<name>MN</name>
+			<port>12345</port>
+			<nodesToSend>
+				<node name="SN"/>
+			</nodesToSend>
+		</node>
+		<node>
+			<name>SN</name>
+			<port>12355</port>
+			<nodesToSend>
+				<node name="MN"/>
+			</nodesToSend>
+		</node>
+	</nodes>
+</configs>
+```
+
+
+### Running the application
 In order to run the application, you should go to bin folder
 ```
 cd PROJECT_FOLDER/bin
 ```
 Each application represent as a node. Therefore, you need to run two application if you test SN and MN.
 
-Note that the executable application name can be changed on your OS and build type. You show *ulakcom-v0.1-** application on the bin folder after successfully building. In example, ulakcom-v0.1-64d was used.
+> Note that the executable application name can be changed on your OS and build type. You show *ulakcom-v0.1-** application on the bin folder after successfully building. In example, ulakcom-v0.1-64d was used.
+
 ```
 ./ulakcom-v0.1-64d -n MN
 ```
@@ -63,3 +103,24 @@ Note that the executable application name can be changed on your OS and build ty
 ./ulakcom-v0.1-64d -n SN
 ```
 -n parameter means name of the node and it should be matched the config file.
+
+### Message Sequence
+The message sequence is defined in the 3GPP TS 37.340 V15.7.0 document by following below:
+
+THE IMAGE HERE
+
+Therefore, firstly MN Application should be sent the signal to SN Application. Then, SN Application should be sent the signal to MN Application. Finally, MN Application should be sent the signal to SN Application. The message sequence will be done after last signal.
+
+> Note that the application cannot be tested on Windows and Mac OSs.
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+

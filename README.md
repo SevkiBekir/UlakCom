@@ -107,7 +107,7 @@ Each application represent as a node. Therefore, you need to run two application
 ### Message Sequence
 The message sequence is defined in the 3GPP TS 37.340 V15.7.0 document by following below:
 
-THE IMAGE HERE
+![SecondaryNodeAdditionProcedure](https://github.com/SevkiBekir/ulakcom/blob/master/resources/images/SecondaryNodeAdditionProcedure.png)
 
 Therefore, firstly MN Application should be sent the signal to SN Application. Then, SN Application should be sent the signal to MN Application. Finally, MN Application should be sent the signal to SN Application. The message sequence will be done after last signal.
 
